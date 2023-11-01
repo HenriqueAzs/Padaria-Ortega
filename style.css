@@ -1,0 +1,73 @@
+/* Config padrão */
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#line {
+    background-color: rgb(87, 28, 23);
+    width: 100%;
+    height: 15px;
+}
+
+header {
+    display: flex;
+    /*  */
+    align-items: center;
+    /*  */
+    justify-content: space-evenly;
+    /*  */
+    padding: 15px;
+    background-color: rgb(124, 45, 45);
+    /*  */
+    overflow: hidden;
+    /*  */
+    line-height: 200px;
+    max-height: 200px;
+}
+
+header>#logo {
+    width: 12rem;
+    height: 11rem;
+}
+
+header h1 {
+    margin-right: 17rem;
+    color: white;
+    font-size: 35px;
+}
+
+#menu-header {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+
+#list-menu {
+    display: flex;
+    margin-right: 1rem;
+}
+
+.item-header a {
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+}
+
+.item-header a:hover {
+    transition: 0.2s;
+    font-size: 17px;
+}
+
+#botao-header {
+    display: flex;
+}
+
+#botao-header>button {
+    padding: 8px;
+    background-color: transparent;
+    border: none;
+}
