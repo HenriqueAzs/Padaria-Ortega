@@ -71,3 +71,52 @@ header h1 {
     background-color: transparent;
     border: none;
 }
+
+#img-destaque { /* Aqui chamamos a ID que chamamos no HTML*/
+    padding: 260px;  /* Cuida do Preenchimento */
+    background-image: url(imagens/padaria.webp); /* Usada para inserir imagens de fundo */
+    background-position: center; /* Aqui posicionamos nossa imagem para o centro */
+}
+
+.img-div {  /* Aqui chamamos nossa Class para alteração*/ 
+    padding: 25px; /* Cuida do Preenchimento */ 
+    background-image: url(imagens/img-div.jpg); /* Usada para inserir imagens de fundo */
+    background-position: center; /* Aqui posicionamos nossa imagem para o centro */ 
+    background-size: auto; /* Background-Size: especifica o tamanho das imagens de fundo. Auto: Responsável por preencher totalmente a imagem. */
+}
+
+#clientes > h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.line{
+    margin: 0 auto;
+    width: 40%;
+}
+
+#clientes{
+    padding: 50px;
+    margin-top: 0;
+    background-color: white;
+}
+
+#clients-list{
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    justify-content: space-evenly;
+}
+
+#clientes-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.clientes-item > img{
+    width: 84px;
+    height: 84px;
+}
