@@ -250,8 +250,15 @@ footer{
     background-size: cover;
 }
 
-.itens-footer{
+footer>ul>div{
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.itens-footer{
+display: flex;
 }
 
 .itens-footer>img{
