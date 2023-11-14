@@ -1,16 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
     <link rel="stylesheet" href="form.css">
 </head>
+
 <body>
 
-    <section id="form-container">
+    <section class="form-container">
+
+        <div class="container">
+
+            <form action="">
+
+                <h1>Cadastre-se e tenha facilidades e descontos exclusivos</h1>
+
+                <p>Preencha o formulário abaixo e entraremos em contato com você</p>
+
+                <div class="input-single">
+                    <input type="text" id="nome-box" class="input" name="nome" autocomplete="off" required> <!-- Name setá utilizado no PHP-->
+                    <label for="">Nome</label>
+                </div>
+
+                <div class="input-single">
+                    <input type="email" id="email-box" class="input" name="email" autocomplete="off" required>
+                    <label for="">Email</label>
+                </div>
+
+                <div class="input-single">
+                    <input type="number" id="tel-box" class="input" name="tel" autocomplete="off" required>
+                    <label for="">Telefone/Celular</label>
+                </div>
+
+
+                <div>
+                    <input type="submit" value="Enviar"> <!-- Button não envia info-->
+                </div>
+            </form>
+
+        </div>
+
 
     </section>
-    
+
 </body>
+
 </html>
