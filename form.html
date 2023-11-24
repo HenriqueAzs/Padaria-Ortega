@@ -14,26 +14,28 @@
 
         <div class="container">
 
-            <form action="">
+            <form method="get" action="cad.php">
 
                 <h1>Cadastre-se e tenha facilidades e descontos exclusivos</h1>
 
                 <p>Preencha o formulário abaixo e entraremos em contato com você</p>
 
                 <div class="input-single">
-                    <input type="text" id="nome-box" class="input" name="nome" autocomplete="off" required> <!-- Name setá utilizado no PHP-->
+                    <input type="text"  class="input" name="nome" autocomplete="off" required id="nome-box"> <!-- Name setá utilizado no PHP-->
 
                     <label for="">Nome</label>
                 </div>
 
                 <div class="input-single">
-                    <input type="email" id="email-box" class="input" name="email" autocomplete="off" required>
-                    <label for="">Email</label>
+                    <input type="text"  class="input" name="sobrenome" autocomplete="off" required id="sobrenome-box">
+
+                    <label for="">Sobrenome</label>
                 </div>
 
                 <div class="input-single">
-                    <input type="number" id="tel-box" class="input" name="tel" autocomplete="off" required>
-                    <label for="">Telefone/Celular</label>
+                    <input type="email"  class="input" name="email" autocomplete="off" required id="email-box">
+                    
+                    <label for="">Email</label>
                 </div>
 
 
