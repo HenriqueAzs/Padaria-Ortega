@@ -110,7 +110,7 @@ header h1 {
 
 .img-div {
     /* Aqui chamamos nossa Class para alteração*/
-    padding: 25px;
+    padding: 2%;
     /* Cuida do Preenchimento */
     background-image: url(imagens/img-div.jpg);
     /* Usada para inserir imagens de fundo */
@@ -330,4 +330,17 @@ footer>ul {
     #img-padaria{
         width: 100%;
     }
+
+    #clientes>h2 {
+        font-size: 1.7em;
+    }
+    
+    .clientes-item>h3 {
+        font-size: 1em;
+    }
+
+    .clientes-item>p {
+        font-size: 0.7em;
+    }
+    
 }
