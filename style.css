@@ -14,22 +14,24 @@
 }
 
 header {
+
+font-family: hel;
+
     display: flex;
     /*  */
     align-items: center;
     /*  */
     justify-content: space-evenly;
     /*  */
-    padding: 15px;
+    padding: 2%;
     background-color: rgb(124, 45, 45);
     /*  */
     overflow: hidden;
     /*  */
-    line-height: 200px;
-    max-height: 200px;
+   
 }
 
-header>#logo {
+header > #logo {
     width: 12rem;
     height: 11rem;
 }
@@ -88,7 +90,7 @@ header h1 {
 
 #img-destaque {
     /* Aqui chamamos a ID que chamamos no HTML*/
-    padding: 260px;
+    padding: 20%;
     /* Cuida do Preenchimento */
     background: linear-gradient(180deg, #9c414170 8.33%, rgba(102, 38, 38, 0.829)), url(imagens/padaria.webp);
     /* Usada para inserir imagens de fundo */
@@ -292,16 +294,40 @@ footer>ul {
         display: none;
     }
 
-    #btn-header>button>a {
+    #btn-header>button >a {
         display: block;
         font-family: bold;
     }
 
-    #btn-header>button>a>p {
+    #btn-header>button > a > p {
        font-size: 0.8em;
+       font-family: Arial, Helvetica, sans-serif;
     }
 
     #btn-header button a img{
-        width: 30%;
+        width: 30%; /* Imagem sempre em porcentagem */
+        height: auto;
+    }
+
+    header #logo{
+      width: 40px; /* Modificar */
+      height: 40px; /* Modificar */
+    }
+
+    header h1{
+        font-size: 1em;
+    }
+
+    header{
+       padding: 5%;
+    }
+
+    #img-destaque{
+       max-width: 100%;
+       height: auto;
+    }
+
+    #img-padaria{
+        width: 100%;
     }
 }
