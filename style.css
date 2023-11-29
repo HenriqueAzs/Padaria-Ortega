@@ -196,8 +196,8 @@ header h1 {
     color: white;
 }
 
-.sessao-produtos {
-    margin-bottom: 70px;
+.sessao-produtos h4{
+    margin-bottom: 20%;
 
 }
 
@@ -310,12 +310,13 @@ footer>ul {
     }
 
     header #logo{
-      width: 40px; /* Modificar */
-      height: 40px; /* Modificar */
+      width: 4%; /* Modificar */
+      height: 4%; /* Modificar */
     }
 
     header h1{
         font-size: 1em;
+        
     }
 
     header{
@@ -332,7 +333,11 @@ footer>ul {
     }
 
     #clientes>h2 {
-        font-size: 1.7em;
+        font-size: 1.7em; /*EM e REM indicado para letras*/
+    }
+
+    .line{
+        width: 90%;
     }
     
     .clientes-item>h3 {
@@ -340,7 +345,23 @@ footer>ul {
     }
 
     .clientes-item>p {
-        font-size: 0.7em;
+        font-size: 0.8em;
+        margin-bottom: 15%;
+        text-align: center;
     }
     
+    #clients-list{
+       display: block; /*um embaixo do outro*/
+    }
+
+    .sessao-produtos{
+        display: block;
+        text-align: center;
+    }
+
+    .sessao-produtos h4{
+        margin-bottom: 15%;
+    }
+
+
 }
